@@ -1,0 +1,2889 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1348683225425 "http://www.leeds.ac.uk/ontologies/Sustainability7#" >
+    <!ENTITY osmethodology "http://www.ordnancesurvey.co.uk/ontologies/osmethodology/1.0/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.leeds.ac.uk/ontologies/Sustainability7#"
+     xml:base="http://www.leeds.ac.uk/ontologies/Sustainability7"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:osmethodology="http://www.ordnancesurvey.co.uk/ontologies/osmethodology/1.0/"
+     xmlns:Ontology1348683225425="http://www.leeds.ac.uk/ontologies/Sustainability7#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="">
+        <osmethodology:knowledge_source
+            >World Bank - http://data.worldbank.org</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:purpose
+            >To be used by decision-makers involved in sustainable development programs, during the analysis of projects and their planned activities, in order to assess potential impacts on economic, environmental and social dimensions</osmethodology:purpose>
+        <osmethodology:related_rabbit_sentence
+            >AccessToResources measures Impact over Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:scope
+            >Describes sustainability in its economic, environmental and social dimensions, including indicators for assessment and related concepts</osmethodology:scope>
+        <osmethodology:knowledge_source
+            >Simon Davidsson, Mikael H&#246;&#246;k and G&#246;ran Wall. A review of life cycle assessments on wind energy systems. International Journal of Life Cycle Assessment (2012) 17:729&#8211;742
+DOI 10.1007/s11367-012-0397-8</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >Brundtland Commission - UN 1987 &#39;Report of the World Commission on Environment and Development: Our Common Future&#39; UN Documents: Gathering a body of global agreements&quot;. Un.org. 12 September 2011.</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Every intercopp is a kind of sustainable development.</osmethodology:related_rabbit_sentence>
+        <osmethodology:knowledge_source
+            >Project no.037075 Project acronym: CALCAS Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Institute of Environmental Sciences, Leiden University (CML). Project co-funded by the European Commission within the Sixth Framework Programme (2002-2006) Available at http://www.leidenuniv.nl/cml/ssp/publications/calcas_report_d20.pdf</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >Renewable and Sustainable Energy Reviews 15 (2011)3918-3933</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >AGROVOC - aims.fao.org</osmethodology:knowledge_source>
+        <osmethodology:knowledge_source
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <dc:creator>Claudia Ribeiro</dc:creator>
+        <osmethodology:knowledge_source
+            >D.W. Penningtona, J. Pottingb, G. Finnvedenc, E. Lindeijerd,
+O. Jolliete, T. Rydberga, G. Rebitzer. Life cycle assessment Part 2: Current impact assessment practice. Environment International 30 (2004) 721&#8211; 739</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence>unknown.</osmethodology:related_rabbit_sentence>
+        <osmethodology:knowledge_source
+            >Claudia M.F.A Ribeiro</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >The relationship measures is the inverse of is measured by.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence>isNegative.</osmethodology:related_rabbit_sentence>
+        <osmethodology:knowledge_source>Wordnet</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence>exclusive.</osmethodology:related_rabbit_sentence>
+        <osmethodology:knowledge_source
+            >Hartmut Bossel, Indicators for Sustainable Development: Theory, Method, Applications- A Report to the Balaton Group, Published by the International Institute for Sustainable Development, 1999, ISBN 1-895536-13-8 </osmethodology:knowledge_source>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&osmethodology;scope"/>
+    <owl:AnnotationProperty rdf:about="&osmethodology;related_rabbit_sentence"/>
+    <owl:AnnotationProperty rdf:about="&osmethodology;purpose"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    <owl:AnnotationProperty rdf:about="&osmethodology;natural_language_description"/>
+    <owl:AnnotationProperty rdf:about="&osmethodology;knowledge_source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#affect -->
+
+    <owl:ObjectProperty rdf:about="#affect">
+        <rdfs:label>affects</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >affects is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#EconomicDimension"/>
+        <rdfs:range rdf:resource="#EnvironmentalDimension"/>
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="#SocialDimension"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#apply -->
+
+    <owl:ObjectProperty rdf:about="#apply">
+        <rdfs:label>applies</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >applies is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:domain rdf:resource="#ImpactAssessment"/>
+        <rdfs:range rdf:resource="#SustainabilityIndicator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#assess -->
+
+    <owl:ObjectProperty rdf:about="#assess">
+        <rdfs:label>assesses</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >assesses is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#Impact"/>
+        <rdfs:domain rdf:resource="#ImpactAssessment"/>
+        <owl:inverseOf rdf:resource="#beAssessBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beApplyBy -->
+
+    <owl:ObjectProperty rdf:about="#beApplyBy">
+        <rdfs:label>is applied by</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is applied by is the inverse of applies.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >is applied by is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#ImpactAssessment"/>
+        <rdfs:domain rdf:resource="#SustainabilityIndicator"/>
+        <owl:inverseOf rdf:resource="#apply"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beAssessBy -->
+
+    <owl:ObjectProperty rdf:about="#beAssessBy">
+        <rdfs:label>is assessed by</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >is assessed by is a relationship.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is assessed by is the inverse of assesses.</osmethodology:related_rabbit_sentence>
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="#ImpactAssessment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beMeasureBy -->
+
+    <owl:ObjectProperty rdf:about="#beMeasureBy">
+        <rdfs:label>is measured by</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >is measured by is a relationship.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is measured by is the inverse of measures.</osmethodology:related_rabbit_sentence>
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="#SustainabilityIndicator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beProduceBy -->
+
+    <owl:ObjectProperty rdf:about="#beProduceBy">
+        <rdfs:label>is produced by</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is produced by is the inverse of produces.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >is produced by is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="#SustainableProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beRelateTo -->
+
+    <owl:ObjectProperty rdf:about="#beRelateTo">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>is related to</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is related to is symmetric.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >is related to is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#EconomicDimension"/>
+        <rdfs:domain rdf:resource="#EconomicDimension"/>
+        <rdfs:domain rdf:resource="#EnvironmentalDimension"/>
+        <rdfs:range rdf:resource="#EnvironmentalDimension"/>
+        <rdfs:domain rdf:resource="#SocialDimension"/>
+        <rdfs:range rdf:resource="#SocialDimension"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#beUseBy -->
+
+    <owl:ObjectProperty rdf:about="#beUseBy">
+        <rdfs:label>is used by</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >The relationship is used by is the inverse of uses.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >is used by is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:domain rdf:resource="#NaturalResource"/>
+        <rdfs:range rdf:resource="#SustainableProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#eutrofization -->
+
+    <owl:ObjectProperty rdf:about="#eutrofization">
+        <rdfs:label>eutrofization</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >eutrofization is a relationship.</osmethodology:related_rabbit_sentence>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#have -->
+
+    <owl:ObjectProperty rdf:about="#have">
+        <rdfs:label>has</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >has is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#EconomicDimension"/>
+        <rdfs:range rdf:resource="#EnvironmentalDimension"/>
+        <rdfs:range rdf:resource="#SocialDimension"/>
+        <rdfs:domain rdf:resource="#SustainableDevelopment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#intercrop -->
+
+    <owl:ObjectProperty rdf:about="#intercrop">
+        <rdfs:label>intercrop</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >intercrop is a relationship.</osmethodology:related_rabbit_sentence>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#measure -->
+
+    <owl:ObjectProperty rdf:about="#measure">
+        <rdfs:label>measures</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >measures is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#Impact"/>
+        <rdfs:domain rdf:resource="#SustainabilityIndicator"/>
+        <owl:inverseOf rdf:resource="#beMeasureBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#produce -->
+
+    <owl:ObjectProperty rdf:about="#produce">
+        <rdfs:label>produces</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >produces is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#Impact"/>
+        <rdfs:domain rdf:resource="#SustainableProject"/>
+        <owl:inverseOf rdf:resource="#beProduceBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#soilFertility -->
+
+    <owl:ObjectProperty rdf:about="#soilFertility">
+        <rdfs:label>Soil fertility</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >Soil fertility is a relationship.</osmethodology:related_rabbit_sentence>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#use -->
+
+    <owl:ObjectProperty rdf:about="#use">
+        <rdfs:label>uses</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >uses is a relationship.</osmethodology:related_rabbit_sentence>
+        <rdfs:range rdf:resource="#NaturalResource"/>
+        <rdfs:domain rdf:resource="#SustainableProject"/>
+        <owl:inverseOf rdf:resource="#beUseBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#isNegative -->
+
+    <owl:DatatypeProperty rdf:about="#isNegative">
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#isPositive -->
+
+    <owl:DatatypeProperty rdf:about="#isPositive">
+        <rdfs:domain rdf:resource="#Impact"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#EconomicDimension -->
+
+    <owl:Class rdf:about="#EconomicDimension">
+        <rdfs:label
+            >Economic Dimension</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >One of the so-called pillars or dimensions of sustainability (People-Planet-Profit, People-Planet-Prosperity, PPP, or P3)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Project no.037075 Project acronym: CALCAS Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Institute of Environmental Sciences, Leiden University (CML). Project co-funded by the European Commission within the Sixth Framework Programme (2002-2006) Available at http://www.leidenuniv.nl/cml/ssp/publications/calcas_report_d20.pdf</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Economic Dimension usually is related to some Environmental Dimension and some Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >Related to growth and well-being, which is understood as any act of consumption including the enjoyment of any goods or services (Moldan, 2011) [Renewable and Sustainable Energy Reviews 15 (2011)3918-3933]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Economic Dimension is a concept.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#EnvironmentalDimension -->
+
+    <owl:Class rdf:about="#EnvironmentalDimension">
+        <rdfs:label
+            >Environmental Dimension</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >One of the so-called pillars or dimensions of sustainability (People-Planet-Profit, People-Planet-Prosperity, PPP, or P3)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Project no.037075 Project acronym: CALCAS Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Institute of Environmental Sciences, Leiden University (CML). Project co-funded by the European Commission within the Sixth Framework Programme (2002-2006) Available at http://www.leidenuniv.nl/cml/ssp/publications/calcas_report_d20.pdf</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Environmental Dimension is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Environmental Dimension usually is related to some Social Dimension and some Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#Fire -->
+
+    <owl:Class rdf:about="#Fire">
+        <rdfs:label>Fire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:related_rabbit_sentence
+            >Fire is a concept.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#Impact -->
+
+    <owl:Class rdf:about="#Impact">
+        <rdfs:label>Impact</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >60. We acknowledge that green economy in the context of sustainable development and poverty eradication will enhance our ability to manage natural resources sustainably and with lower negative environmental impacts, increase resource efficiency and reduce waste.
+[The Future We Want - United Nations]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Impact is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >a forceful consequence; a strong effect [Wordnet]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >An Impact usually is measured by some Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Impact usually is measured by some Impact Assessment.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#ImpactAssessment -->
+
+    <owl:Class rdf:about="#ImpactAssessment">
+        <rdfs:label
+            >Impact Assessment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#apply"/>
+                <owl:onClass rdf:resource="#SustainabilityIndicator"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#assess"/>
+                <owl:someValuesFrom rdf:resource="#Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Before the European Commission proposes new initiatives it assesses the potential economic, social and environmental consequences that they may have. Impact assessment is a set of logical steps which helps the Commission to do this. It is a process that prepares evidence for political decision-makers on the advantages and disadvantages of possible policy options by assessing their potential impact.
+[http://ec.europa.eu/governance/impact/index_en.htm]</rdfs:comment>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Renewable and Sustainable Energy Reviews 15 (2011)3918-3933</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >a tool that can help decision-makers and policy-makers decide which actions they should or should not take in an attempt to make society more sustainable</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Impact Assessment is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Impact Assessment assesses some Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Impact Assessment applies at least one Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#NaturalResource -->
+
+    <owl:Class rdf:about="#NaturalResource">
+        <rdfs:label
+            >Natural Resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >agrovoc: Natural resources (5091)  
+[aims.fao.org]</rdfs:seeAlso>
+        <osmethodology:related_rabbit_sentence
+            >Natural Resource is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >resources (actual and potential) supplied by nature [Wordnet]</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description
+            >Natural resources are materials and components (something that can be used) that can be found within the environment. Every man-made product is composed of natural resources (at its fundamental level). A natural resource may exist as a separate entity such as fresh water, and air, as well as a living organism such as a fish, or it may exist in an alternate form which must be processed to obtain the resource such as metal ores, oil, and most forms of energy. [Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description
+            >A resource is a source or supply from which benefit is produced. Typically resources are materials or other assets that are transformed to produce benefit and in the process may be consumed or made unavailable. From a human perspective a natural resource is anything obtained from the environment to satisfy human needs and wants.[ [Wikipedia]</osmethodology:natural_language_description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#NonrenewableResource -->
+
+    <owl:Class rdf:about="#NonrenewableResource">
+        <rdfs:label
+            >Nonrenewable Resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#NaturalResource"/>
+        <owl:disjointWith rdf:resource="#RenewableResource"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >agrovoc: Renewable resources (6502) 
+[aims.fao.org]</rdfs:seeAlso>
+        <osmethodology:related_rabbit_sentence
+            >Nonrenewable Resource is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Nonrenewable Resource and Renewable Resource are mutually exclusive.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Nonrenewable Resource is a kind of Natural Resource.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >Non-renewable resources are resources that form extremely slowly and those that do not naturally form in the environment. Minerals are the most common resource included in this category. By the human perspective, resources are non-renewable when their rate of consumption exceeds the rate of replenishment/recovery; a good example of this are fossil fuels, which are in this category because their rate of formation is extremely slow (potentially millions of years), meaning they are considered non-renewable. Some resources actually naturally deplete in amount without human interference, the most notable of these being radio-active elements such as uranium, which naturally decay into heavy metals. Of these, the metallic minerals can be re-used by recycling them,[1] but coal and petroleum cannot be recycled.[2] [Wikipedia]</osmethodology:natural_language_description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#RenewableResource -->
+
+    <owl:Class rdf:about="#RenewableResource">
+        <rdfs:label
+            >Renewable Resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="#NaturalResource"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >agrovoc:  Renewable resources   (6502)  
+ [aims.fao.org]</rdfs:seeAlso>
+        <osmethodology:related_rabbit_sentence
+            >Renewable Resource is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Renewable Resource is a kind of Natural Resource.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >Renewable resources are ones that can be replenished naturally. Some of these resources, like sunlight, air, wind, etc., are continuously available and their quantity is not noticeably affected by human consumption. Though many renewable resources do not have such a rapid recovery rate, these resources are susceptible to depletion by over-use. Resources from a human use perspective are classified as renewable only so long as the rate of replenishment/recovery exceeds that of the rate of consumption. [Wikipedia]</osmethodology:natural_language_description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#SocialDimension -->
+
+    <owl:Class rdf:about="#SocialDimension">
+        <rdfs:label
+            >Social Dimension</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >6. We recognize that people are at the center of sustainable development and in this regard, we strive for a world which is just, equitable and inclusive, and we commit to work together to promote sustained and inclusive economic growth, social development, environmental protection and thereby to benefit all.
+[Future We Want - United Nations]</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >One of the so-called pillars or dimensions of sustainability (People-Planet-Profit, People-Planet-Prosperity, PPP, or P3)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Project no.037075 Project acronym: CALCAS Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Institute of Environmental Sciences, Leiden University (CML). Project co-funded by the European Commission within the Sixth Framework Programme (2002-2006) Available at http://www.leidenuniv.nl/cml/ssp/publications/calcas_report_d20.pdf</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Social Dimension is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:natural_language_description
+            >The extent to which social values, social identities, social relationships and social institutions can continue into the future (Black,2004) [Renewable and Sustainable Energy Reviews papers]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Social Dimension usually is related to some Environmental Dimension and some Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#Soil -->
+
+    <owl:Class rdf:about="#Soil">
+        <rdfs:label>Soil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <osmethodology:related_rabbit_sentence
+            >Soil is a concept.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#SustainabilityIndicator -->
+
+    <owl:Class rdf:about="#SustainabilityIndicator">
+        <rdfs:label
+            >Sustainability Indicator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="#EconomicDimension"/>
+                                            <rdf:Description rdf:about="#EnvironmentalDimension"/>
+                                            <rdf:Description rdf:about="#SocialDimension"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >250. We recognize that progress towards the achievement of the goals needs to be assessed and accompanied by targets and indicators while taking into account different national circumstances, capacities and levels of development
+[The Future We Want - United Nations]</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Hartmut Bossel, Indicators for Sustainable Development: Theory, Method, Applications- A Report to the Balaton Group, Published by the International Institute for Sustainable Development, 1999, ISBN 1-895536-13-8 </osmethodology:knowledge_source>
+        <osmethodology:natural_language_description
+            >Variable that summarise or simplify relevant information about the state of complex systems [Renewable and Sustainable Energy Reviews papers]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Sustainability Indicator is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Sustainability Indicator measures some Impact that is related to Economic Dimension or Environmental Dimension or Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >A Sustainability Indicator usually is applied by some Impact Assessment.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#SustainableDevelopment -->
+
+    <owl:Class rdf:about="#SustainableDevelopment">
+        <rdfs:label
+            >Sustainable Development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#have"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#EconomicDimension"/>
+                            <rdf:Description rdf:about="#EnvironmentalDimension"/>
+                            <rdf:Description rdf:about="#SocialDimension"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >276. We recognize the need to facilitate informed policy decision-making on sustainable development issues and in this regard to strengthen the science-policy interface.
+[The Future We Want - United Nations]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >4. We therefore acknowledge the need to further mainstream sustainable development at all levels integrating economic, social and environmental aspects and recognizing their interlinkages, so as to achieve sustainable development in all its dimensions.
+[Future We Want - United Nations]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >40. We call for holistic and integrated approaches to sustainable development which will guide humanity to live in harmony with nature and lead to efforts to restore the health and integrity of the Earth&#39;s ecosystem.
+[Future We Want - United Nations]</rdfs:comment>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Brundtland Commission - UN 1987 &#39;Report of the World Commission on Environment and Development: Our Common Future&#39; UN Documents: Gathering a body of global agreements&quot;. Un.org. 12 September 2011.</osmethodology:knowledge_source>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >The term sustainable development has many interpretations, most notably the Brundtland Commission&#39;s &#39;to ensure that it meets the needs of the present without compromising the ability of future generations to meet their own needs&#39;,[6] however in broad terms it is balancing the needs of the planet&#39;s people and species now and in the future.[4] In regards to natural resources, depletion is of concern for sustainable development as it has the ability to degrade current environments[7] and potential to impact the needs of future generations.[5] [Wikipedia]</rdfs:comment>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >to ensure that it meets the needs of the present without compromising the ability of future generations to meet their own needs.</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Sustainable Development is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Sustainable Development has Economic Dimension and Social Dimension and Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#SustainableProject -->
+
+    <owl:Class rdf:about="#SustainableProject">
+        <rdfs:label
+            >Sustainable Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#produce"/>
+                <owl:someValuesFrom rdf:resource="#Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <osmethodology:related_rabbit_sentence
+            >Sustainable Project is a concept.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Every Sustainable Project produces some Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >A Sustainable Project usually uses some Natural Resource.</osmethodology:related_rabbit_sentence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#abioticResourceUse -->
+
+    <Impact rdf:about="#abioticResourceUse">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Abiotic Resource Use</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Depletes nonrenewable resources</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Abiotic Resource Use is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Abiotic Resource Use is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Abiotic Resource Use affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#accesstoresource -->
+
+    <SustainabilityIndicator rdf:about="#accesstoresource">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >AccessToResources</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Access to electricity (% of population) - Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.
+[http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS]
+</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Access to resources ensuring adequate quality of life (access to potable water, sanitary facilities, adequate housing, education and training, transportation, and health services)
+</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >AccessToResources is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >AccessToResources is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >AccessToResources measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#acidification -->
+
+    <owl:Thing rdf:about="#acidification">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Acidification</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Contributes to acid deposition</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Acidification affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Acidification is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Acidification is an Impact.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#airPollution -->
+
+    <owl:Thing rdf:about="#airPollution">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Air Pollution</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >D.W. Penningtona, J. Pottingb, G. Finnvedenc, E. Lindeijerd,
+O. Jolliete, T. Rydberga, G. Rebitzer. Life cycle assessment Part 2: Current impact assessment practice. Environment International 30 (2004) 721&#8211; 739</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >pollution of the atmosphere
+[Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Air Pollution affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Air Pollution is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Air Pollution is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#airQuality -->
+
+    <owl:Thing rdf:about="#airQuality">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Air Quality</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > CO2 emissions (metric tons per capita)
+Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring. 
+[http://data.worldbank.org/indicator/EN.ATM.CO2E.PC]</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)
+Other greenhouse gas emissions are by-product emissions of hydrofluorocarbons, perfluorocarbons, and sulfur hexafluoride. 
+[http://data.worldbank.org/indicator/EN.ATM.GHGO.KT.CE]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Air quality (emissions of GHG, nitrogen, POP&#39;s)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >CO2 emissions (kt) - Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring. 
+[http://data.worldbank.org/indicator/EN.ATM.CO2E.KT]
+</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Air Quality measures some Impact that is related to  Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Air Quality is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Air Quality is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#aquaticTerrestrialEcotoxicity -->
+
+    <Impact rdf:about="#aquaticTerrestrialEcotoxicity">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Aquatic Terrestrial Ecotoxicity</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Creates conditions toxic to aquatic or terrestrial flora and fauna</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Creates conditions toxic to humans</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Aquatic Terrestrial Ecotoxicity is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Aquatic Terrestrial Ecotoxicity is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Aquatic Terrestrial Ecotoxicity affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#bioticResourceUse -->
+
+    <Impact rdf:about="#bioticResourceUse">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Biotic Resource Use</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Appropriates the products of primary production</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Biotic Resource Use affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Biotic Resource Use is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Biotic Resource Use is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#capacityBuilding -->
+
+    <SustainabilityIndicator rdf:about="#capacityBuilding">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:label
+            >Capacity Building</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >277. We emphasize the need for enhanced capacity building for sustainable development and, in this regard, we call for strengthening technical and scientific cooperation including North-South, South-South and triangular cooperation. We reiterate the importance of human resource development, including training, exchange of experiences and expertise, knowledge transfer and technical assistance for capacity-building, which involves strengthening institutional capacity, including planning, management and monitoring capacities.
+[The Future We Want - United Nations]</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Aid Effectiveness
+Aid effectiveness is the impact that aid has in reducing poverty and inequality, increasing growth, building capacity, and accelerating achievement of the Millennium Development Goals set by the international community. Indicators here cover aid received as well as progress in reducing poverty and improving education, health, and other measures of human welfare.
+[http://data.worldbank.org/topic/aid-effectiveness]
+</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Capacity building (building and use of local labour and skills)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Labor participation rate, female (% of female population ages 15+) and
+Labor participation rate, male (% of male population ages 15+)
+
+Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. 
+[http://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS]</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Capacity Building measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Capacity Building is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Capacity Building is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#cbaCostBenefitAnalysis -->
+
+    <ImpactAssessment rdf:about="#cbaCostBenefitAnalysis">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:label
+            >CBA Cost Benefit Analysis</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Cost Benefit Analysis (CBA) is a method trying to estimate the total impact of a project on society by calculating social costs and benefits. Environmental impacts are included by valuation of these, converting them into monetary terms.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >CBA Cost Benefit Analysis is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >CBA Cost Benefit Analysis is a Thing.</osmethodology:related_rabbit_sentence>
+    </ImpactAssessment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#chemicalFertilization -->
+
+    <Impact rdf:about="#chemicalFertilization">
+        <rdfs:label
+            >chemical fertilization</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >chemical fertilization is a Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#climateChange -->
+
+    <owl:Thing rdf:about="#climateChange">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Climate Change</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >a change in the world&#39;s climate 
+[Wordnet]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Climate Change is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Climate Change is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Climate Change and Global Warming are the same thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Climate Change affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#cusCriterionIndicator -->
+
+    <ImpactAssessment rdf:about="#cusCriterionIndicator">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:label
+            >CI Criteria Indicators</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Criteria and Indicators (C&amp;I) are a policy and management tool used to define, assess and monitor progress towards sustainable management in a given area, over a period of time taking into consideration the environmental, social, economic, cultural and spiritual needs of the full range of stakeholder groups in the areas concerned</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >CI Criteria Indicators is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >CI Criteria Indicators is a Thing.</osmethodology:related_rabbit_sentence>
+    </ImpactAssessment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#deforestation -->
+
+    <SustainabilityIndicator rdf:about="#deforestation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Deforestation</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Forest area (% of land area)
+Forest area is land under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens. 
+[http://data.worldbank.org/indicator/AG.LND.FRST.ZS]</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >the state of being clear of trees
+[Wordnet]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Deforestation is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Deforestation measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Deforestation is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#democraticParticipation -->
+
+    <owl:Thing rdf:about="#democraticParticipation">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Democratic Participation</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Democratic participation (stakeholder involvement)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Democratic Participation  measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Democratic Participation is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Democratic Participation is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#desertification -->
+
+    <owl:Thing rdf:about="#desertification">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Desertification</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Desertification and drought</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Poverty gap at rural poverty line (%)
+Poverty gap at rural poverty line is the mean shortfall from the poverty line (counting the nonpoor as having zero shortfall) as a percentage of the national rural poverty line. This measure reflects the depth of poverty as well as its incidence.
+[http://data.worldbank.org/indicator/SI.POV.RUGP] </rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >the gradual transformation of habitable land into desert; is usually caused by climate change or by destructive use of the land
+[Wordnet]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Desertification measures some Impact that is related to   Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Desertification is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Desertification is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#eaExergyAnalysis -->
+
+    <ImpactAssessment rdf:about="#eaExergyAnalysis">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:label
+            >EA Exergy Analysis</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Exergy Analysis (EA) is a method that uses the conservation of mass and conservation of energy principles together with the second law of thermodynamics for the analysis, design and improvement of energy and other systems. The exergy of an energy form or a substance is a measure of its usefulness or quality or potential to cause change. The exergy method is a useful tool for furthering the goal of more efficient energy-resource use, as it enables the locations, types and magnitudes of wastes and losses to be identified and meaningful efficiencies to be determined</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >EA Exergy Analysis is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EA Exergy Analysis is a Thing.</osmethodology:related_rabbit_sentence>
+    </ImpactAssessment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#economicDiversification -->
+
+    <Impact rdf:about="#economicDiversification">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Economic Diversification</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >States and regions often undertake strategies to diversify their economies and reduce overreliance on one or a few sectors
+and, in turn, reduce susceptibility to economic cycles or massive closures within those sectors.</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Economic Diversification is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Economic Diversification is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Economic Diversification affects Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#eiumEnvironmentalImpactAssessment -->
+
+    <owl:Thing rdf:about="#eiumEnvironmentalImpactAssessment">
+        <rdf:type rdf:resource="#ImpactAssessment"/>
+        <rdfs:label
+            >EIA Environmental Impact Assessment</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Environmental Impact Assessment (EIA) is used to evaluate potential environmental impacts &#8211; considering natural, social and economic issues &#8211; that a proposed project may have, with the aim to reduce the negative effects</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >EIA Environmental Impact Assessment is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EIA Environmental Impact Assessment is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#energyBalance -->
+
+    <owl:Thing rdf:about="#energyBalance">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Energy Balance</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Energy production (kt of oil equivalent)
+Energy production refers to forms of primary energy--petroleum (crude oil, natural gas liquids, and oil from nonconventional sources), natural gas, solid fuels (coal, lignite, and other derived fuels), and combustible renewables and waste--and primary electricity, all converted into oil equivalents. 
+[http://data.worldbank.org/indicator/EG.EGY.PROD.KT.OE]</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Energy use (kg of oil equivalent per capita)
+Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport. 
+[http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Use of energy (energy balance)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Energy Balance is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Balance measures some Impact that is related to  Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Balance is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Balance measures some Impact that is related to  Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#energyDiversification -->
+
+    <owl:Thing rdf:about="#energyDiversification">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Energy Diversification</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >The addition of new or alternative resources or technologies to a region&#8217;s existing energy portfolio is called energy diversification.
+Like economic diversification, energy diversification has the potential to increase energy reliability by reducing reliance on any one energy source. Regions may also seek to diversify energy resources to reduce greenhouse gases or other environmental pollutants, decrease costs, and increase production or consumption efficiency.</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Energy Diversification is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Diversification is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Diversification affects Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#energyUse -->
+
+    <Impact rdf:about="#energyUse">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Energy Use</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Depletes nonrenewable energy resources</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Energy Use is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Use affects Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Energy Use is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#epbt -->
+
+    <owl:Thing rdf:about="#epbt">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>EPBT</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Simon Davidsson, Mikael H&#246;&#246;k and G&#246;ran Wall. A review of life cycle assessments on wind energy systems. International Journal of Life Cycle Assessment (2012) 17:729&#8211;742
+DOI 10.1007/s11367-012-0397-8</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >energy payback time</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >EPBT measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EPBT is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EPBT is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#erous -->
+
+    <owl:Thing rdf:about="#erous">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>EROI</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Energy return on investment</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Simon Davidsson, Mikael H&#246;&#246;k and G&#246;ran Wall. A review of life cycle assessments on wind energy systems. International Journal of Life Cycle Assessment (2012) 17:729&#8211;742
+DOI 10.1007/s11367-012-0397-8</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >EROI is a Sustainability Indicator .</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EROI is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >EROI measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#eutrophication -->
+
+    <Impact rdf:about="#eutrophication">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>eutrophication</rdfs:label>
+        <rdfs:label>Eutrophication</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Provision of nutrients contributes to biological oxygen demand</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Eutrophication affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Eutrophication is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Eutrophication is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >eutrophication is a impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#fairTrade -->
+
+    <owl:Thing rdf:about="#fairTrade">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Fair Trade</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >281. We reaffirm that international trade is an engine for development and sustained economic growth, and also reaffirm the critical role that a universal, rules-based, open, non-discriminatory and equitable multilateral trading system, as well as meaningful trade liberalization, can play in stimulating economic growth and development worldwide, thereby benefiting all countries at all stages of development, as they advance towards sustainable development. In this context, we remain focused on achieving progress in addressing a set of important issues, such as, inter alia, trade distorting subsidies and trade in environmental goods and services. 
+[The Future We Want - United Nations]</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Fair trade conditions (transparency and accountability of negotiations, fair and equal remuneration)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high)
+[http://data.worldbank.org/indicator/LP.LPI.INFR.XQ]</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Fair Trade is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Fair Trade is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Fair Trade measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Fair Trade measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#foodEnergySupply -->
+
+    <SustainabilityIndicator rdf:about="#foodEnergySupply">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Food Energy Supply</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Electric power consumption (kWh per capita)
+Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants. 
+[http://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC]</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Food production index (2004-2006 = 100)
+Food production index covers food crops that are considered edible and that contain nutrients. Coffee and tea are excluded because, although edible, they have no nutritive value. 
+[http://data.worldbank.org/indicator/AG.PRD.FOOD.XD]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Food and energy supply safety (quantity and quality of food available, energy supply)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Food Energy Supply  measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Food Energy Supply is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Food Energy Supply is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#fossilResource -->
+
+    <SustainabilityIndicator rdf:about="#fossilResource">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Fossil Resources</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Fossil fuel energy consumption (% of total)
+Fossil fuel comprises coal, oil, petroleum, and natural gas products. 
+[http://data.worldbank.org/indicator/EG.USE.COMM.FO.ZS]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Use of fossil resources</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Fossil Resources measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Fossil Resources is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Fossil Resources is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#globalWarming -->
+
+    <owl:Thing rdf:about="#globalWarming">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Global Warming</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Contributes to atmospheric absorption of infrared radiation</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Global Warming affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Global Warming is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Global Warming is a Thing.</osmethodology:related_rabbit_sentence>
+        <owl:sameAs rdf:resource="#climateChange"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#humanRights -->
+
+    <SustainabilityIndicator rdf:about="#humanRights">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Human Rights</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Labor &amp; Social Protection indicators
+[http://data.worldbank.org/indicator]
+</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Protection of human rights (rights of children, women, indigenous people, discrimination)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Human Rights measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Rights is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Rights is a Thing.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#humanSafety -->
+
+    <SustainabilityIndicator rdf:about="#humanSafety">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Human Safety</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Protection of human safety and health (protection of human health, safe and healthy work environment)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Labor &amp; Social Protection indicators
+[http://data.worldbank.org/indicator]
+</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Human Safety measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Safety is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Safety is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#humanToxicity -->
+
+    <Impact rdf:about="#humanToxicity">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Human Toxicity</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Toxicity is the degree to which a substance can damage an organism. [Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Human Toxicity is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Toxicity affects Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Human Toxicity is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#increaseEnergyEfficiency -->
+
+    <owl:Thing rdf:about="#increaseEnergyEfficiency">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Increased Energy Efficiency</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >An EBED  (Energy-Based Economic Development) initiative with this goal may aim to develop, commercialize, manufacture, or use technologies and products that reduce greenhouse gas emissions.</osmethodology:natural_language_description>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Initiatives to increase energy efficiency simply aim to reduce the amount of energy required by residents, businesses, and governments. The positive EBED (Energy-Based Economic
+Development) effect associated with energy efficiency is an indirect one: Money saved by efficiency efforts can be redirected in
+ways that create or retain jobs or create wealth.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Efficiency affects Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Efficiency is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Efficiency is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#increaseEnergySelf-sufficiency -->
+
+    <Impact rdf:about="#increaseEnergySelf-sufficiency">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Increased Energy Self-sufficiency</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >The national focus on energy security&#8212;the notion that a dependence
+on energy sources that come from outside of a jurisdiction&#8217;s borders poses a risk to its energy supply, to the personal security of that jurisdiction&#8217;s inhabitants, or both&#8212;has translated to pursuit of
+energy &#8220;independence&#8221; at a subnational level. 
+At this level, the focus is less on actual security and more on regional competitiveness, potential for job creation and retention, or utilization of resources. This terminology is often used to avoid the explicit preference for alternative energy resources inferred by focusing more on emissions. That said, the focus on local and regional resources aligns well with the push for increased use of alternative resources,
+because advanced, alternative energy tends to come from local or regional sources.</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Self-sufficiency affects Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Self-sufficiency is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Increased Energy Self-sufficiency is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#intercrop -->
+
+    <SustainableDevelopment rdf:about="#intercrop">
+        <rdfs:label>intercrop</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >intercrop is a Sustainable Development.</osmethodology:related_rabbit_sentence>
+    </SustainableDevelopment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#ionizingRadiation -->
+
+    <owl:Thing rdf:about="#ionizingRadiation">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Ionizing Radiation</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Ionizing (or ionising) radiation is radiation composed of particles that individually carry enough energy to liberate an electron from an atom or molecule, ionizing it. Ionizing radiation is generated through nuclear reactions, either artificial or natural, by very high temperature (e.g. the corona of the Sun), or via production of high energy particles in particle accelerators, or due to acceleration of charged particles by the electromagnetic fields produced by natural processes, from lightning to supernova explosions.
+[Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Ionizing Radiation affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Ionizing Radiation is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Ionizing Radiation is an Impact.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#jobCreation -->
+
+    <Impact rdf:about="#jobCreation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Job Creation</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Programs and projects with this goal emphasize increases in energy-related jobs or a reduction of the unemployment rate. Increasingly, economic development initiatives set forth standards,
+such as job quality or wages requirements, or specify particular types of jobs, such as energy technology manufacturing jobs, as part of their stated goals.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline? Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Job Creation is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Job Creation is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Job Creation affects Social Dimension.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#jobRetention -->
+
+    <Impact rdf:about="#jobRetention">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Job Retention</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Initiatives with this goal aim to maintain numbers of jobs or the employment rate.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Job Retention affects Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Job Retention is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Job Retention is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#labourCondition -->
+
+    <SustainabilityIndicator rdf:about="#labourCondition">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Labour Condition</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Labour conditions (freedom of association, collective bargaining, minimum wages, discrimination)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >http://data.worldbank.org/indicator</rdfs:seeAlso>
+        <osmethodology:related_rabbit_sentence
+            >Labour Condition  measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Labour Condition is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Labour Condition  measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Labour Condition is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#landUse -->
+
+    <owl:Thing rdf:about="#landUse">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Land Use</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Land use (amount of land used, leakage effects)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Agriculture &amp; Rural Development Indicators
+[http://data.worldbank.org/indicator]</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/
+</osmethodology:knowledge_source>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Land Use is defined as an Impact according to CALCAS Impact Assessment and also as a sustainability indicator in the specialized literature</rdfs:comment>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Land Use is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Land Use is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Land Use is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Land Use measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Land Use affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#landscapeView -->
+
+    <owl:Thing rdf:about="#landscapeView">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Landscape View</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Landscape view (landscape variation, conservation of typical elements)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Landscape View is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Landscape View measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Landscape View is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#lcaLifeCycleAssessment -->
+
+    <owl:Thing rdf:about="#lcaLifeCycleAssessment">
+        <rdf:type rdf:resource="#ImpactAssessment"/>
+        <rdfs:label
+            >LCA Life Cycle Assessment</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Life Cycle Assessment (LCA) assesses, in a systematic way, the environmental issues and impacts of product systems, from raw material acquisition to final disposal, in accordance with the stated goal and scope</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >LCA Life Cycle Assessment is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >LCA Life Cycle Assessment is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#localEconomy -->
+
+    <SustainabilityIndicator rdf:about="#localEconomy">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Local Economy</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Economic Policy &amp; External Debt
+Economic indicators measure outcomes in the structure and rates of change of output, trade, and aggregate demand, and in macroeconomic performance. The data here consist of national accounts, government finances, money supply, prices, balance of payments, and external debt. Data are gathered from national statistical organizations and central banks by World Bank missions and from the International Monetary Fund&#39;s data files.
+[http://data.worldbank.org/topic/economic-policy-and-external-debt]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Strength and diversification of local economy</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Local Economy measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Local Economy is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Local Economy is a Thing.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#longTermPerspective -->
+
+    <owl:Thing rdf:about="#longTermPerspective">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Long Term Perspective</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Long term perspective (long-term commitments, contracts and management plans)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Long Term Perspective is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Long Term Perspective measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Long Term Perspective is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#noblockingOtherDevelopment -->
+
+    <owl:Thing rdf:about="#noblockingOtherDevelopment">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >NoBlocking Other Developments</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >No blocking of other desirable developments</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >NoBlocking Other Developments is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >NoBlocking Other Developments measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >NoBlocking Other Developments is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#noise -->
+
+    <owl:Thing rdf:about="#noise">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#EnvironmentalDimension"/>
+                            <rdf:Description rdf:about="#SocialDimension"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Noise</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > interference, disturbance (electrical or acoustic activity that can disturb communication) 
+[Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Noise is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Noise is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Noise affects Environmental Dimension and Social Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#ozoneDepletion -->
+
+    <owl:Thing rdf:about="#ozoneDepletion">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Ozone Depletion</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Contributes to depletion of stratospheric ozone</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Ozone Depletion affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Ozone Depletion is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Ozone Depletion is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#particulateMatter -->
+
+    <Impact rdf:about="#particulateMatter">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Particulate Matter</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Atmospheric particulate matter - also known as particulates or particulate matter (PM) - are tiny pieces of solid or liquid matter associated with the Earth&#39;s atmosphere. They are suspended in the atmosphere as atmospheric aerosol, a term which refers to the particulate/air mixture, as opposed to the particulate matter alone. However, it is common to use the term aerosol to refer to the particulate component alone.[1] Sources of particulate matter can be man made or natural. They can adversely affect human health and also have impacts on climate and precipitation. Subtypes of atmospheric particle matter include suspended particulate matter (SPM), respirable suspended particle (RSP; particles with diameter of 10 micrometres or less), fine particles, and soot.
+[Wikipedia]</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Particulate Matter affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Particulate Matter is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Particulate Matter is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#pepbt -->
+
+    <owl:Thing rdf:about="#pepbt">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>PEPBT</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Simon Davidsson, Mikael H&#246;&#246;k and G&#246;ran Wall. A review of life cycle assessments on wind energy systems. International Journal of Life Cycle Assessment (2012) 17:729&#8211;742
+DOI 10.1007/s11367-012-0397-8</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >primary energy payback time</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >PEPBT is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEPBT is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEPBT and EPBT are the same thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEPBT measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <owl:sameAs rdf:resource="#epbt"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#perous -->
+
+    <SustainabilityIndicator rdf:about="#perous">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>PEROI</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Simon Davidsson, Mikael H&#246;&#246;k and G&#246;ran Wall. A review of life cycle assessments on wind energy systems. International Journal of Life Cycle Assessment (2012) 17:729&#8211;742
+DOI 10.1007/s11367-012-0397-8</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >primary energy return on investment</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >PEROI measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEROI is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEROI and EROI are the same thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >PEROI is a Thing.</osmethodology:related_rabbit_sentence>
+        <owl:sameAs rdf:resource="#erous"/>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#photochemicalOxidantFormation -->
+
+    <Impact rdf:about="#photochemicalOxidantFormation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Photochemical Oxidant Formation</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Contributes to photochemical smog</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Nathan Pelletier and Peter Tyedmers. Life Cycle Considerations for Improving Sustainability Assessments in Seafood Awareness Campaigns. Environmental Management (2008) 42:918&#8211;931</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Photochemical Oxidant Formation is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Photochemical Oxidant Formation affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Photochemical Oxidant Formation is a Thing.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#pofPhotochemicalOzoneFormation -->
+
+    <owl:Thing rdf:about="#pofPhotochemicalOzoneFormation">
+        <rdf:type rdf:resource="#Impact"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >POF Photochemical Ozone Formation</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >CALCAS - Co-ordination Action for innovation in Life-Cycle Analysis for Sustainability. Deliverable D20- Blue Paper on Life Cycle Sustainability Analysis. Revision 1 after the Open Consultation.http://www.calcasproject.net/</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >POF Photochemical Ozone Formation affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >POF Photochemical Ozone Formation is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >POF Photochemical Ozone Formation is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >POF Photochemical Ozone Formation and Photochemical Oxidant Formation are the same thing.</osmethodology:related_rabbit_sentence>
+        <owl:sameAs rdf:resource="#photochemicalOxidantFormation"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#preservationOfBiodiversity -->
+
+    <owl:Thing rdf:about="#preservationOfBiodiversity">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Preservation of Biodiversity</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Biodiversity and preservation of sensitive ecosystems (use of GMO&#39;s/exotic species, preservation of habitats and high conservation value forests, avoidance of pollution of neighboring  ecosystems)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Preservation of Biodiversity measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Preservation of Biodiversity is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Preservation of Biodiversity is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#propertyRights -->
+
+    <owl:Thing rdf:about="#propertyRights">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Property Rights</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > CPIA property rights and rule-based governance rating (1=low to 6=high)
+Property rights and rule-based governance assess the extent to which private economic activity is facilitated by an effective legal system and rule-based governance structure in which property and contract rights are reliably respected and enforced.
+[http://data.worldbank.org/indicator/IQ.CPA.PROP.XQ]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Protection of property rights and user ownership (land tenure conflicts, equitable land ownership)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Property Rights is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Property Rights is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Property Rights measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#reducedGreenhouseGasEmission -->
+
+    <Impact rdf:about="#reducedGreenhouseGasEmission">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Reduced Greenhouse Gas Emissions</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Greenhouse gases trap heat in the atmosphere and contribute
+to climate change; they are produced by natural processes and human activities.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Reduced Greenhouse Gas Emissions is an Impact.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reduced Greenhouse Gas Emissions is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reduced Greenhouse Gas Emissions affects Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </Impact>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#reliabilityOfEnergy -->
+
+    <owl:Thing rdf:about="#reliabilityOfEnergy">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Reliability of Energy</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Reliability of energy</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Energy is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Energy is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Energy  measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#reliabilityOfResource -->
+
+    <SustainabilityIndicator rdf:about="#reliabilityOfResource">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Reliability of Resources</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Reliability of resources (security of supply)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Resources  measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Resources is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Resources is a Thing.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#reliabilityOfTechnology -->
+
+    <owl:Thing rdf:about="#reliabilityOfTechnology">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Reliability of Technology</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Reliability of the used technology (adequately proven technology)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Technology  measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Technology is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Reliability of Technology is a Thing.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#riskMinimisation -->
+
+    <SustainabilityIndicator rdf:about="#riskMinimisation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Risk Minimisation</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Risk minimisation</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Risk Minimisation measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Risk Minimisation is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Risk Minimisation is a Thing.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#socialAcceptance -->
+
+    <owl:Thing rdf:about="#socialAcceptance">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Social Acceptance</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Social acceptance (acceptance of the business by producer, consumer and local population)</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Social Acceptance measures some Impact that is related to Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Social Acceptance is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Social Acceptance is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#soilFertility -->
+
+    <SustainableDevelopment rdf:about="#soilFertility">
+        <rdfs:label>Soil fertility</rdfs:label>
+        <osmethodology:related_rabbit_sentence
+            >Soil fertility is a Sustainable Development.</osmethodology:related_rabbit_sentence>
+    </SustainableDevelopment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#soilQuality -->
+
+    <SustainabilityIndicator rdf:about="#soilQuality">
+        <rdf:type rdf:resource="#Soil"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Soil Quality</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            > Soil quality (nutrient balances, accumulation of heavy metals, soil compaction and erosion)</osmethodology:natural_language_description>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Environment
+Natural and man-made environmental resources &#8211; fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems &#8211; provide sustenance and a foundation for social and economic development. The need to safeguard these resources crosses all borders. Today, the World Bank is one of the key promoters and financiers of environmental upgrading in the developing world. Data here cover forests, biodiversity, emissions, and pollution. Other indicators relevant to the environment are found under data pages for Agriculture &amp; Rural Development, Energy &amp; Mining, Infrastructure, and Urban Development.
+[http://data.worldbank.org/topic/environment]
+</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Soil Quality is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Soil Quality is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Soil Quality is a Soil.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Soil Quality  measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#spaSystemPerturbationAnalysis -->
+
+    <ImpactAssessment rdf:about="#spaSystemPerturbationAnalysis">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:label
+            >SPA System Perturbation Analysis</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >System Perturbation Analysis (SPA) identifies the best usage of limited resources such as land, wood waste or imports, in terms of fossil energy savings or GHG emissions within a given system.</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >SPA System Perturbation Analysis is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >SPA System Perturbation Analysis is an Impact Assessment.</osmethodology:related_rabbit_sentence>
+    </ImpactAssessment>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#useOfAgrochemical -->
+
+    <SustainabilityIndicator rdf:about="#useOfAgrochemical">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Use of Agrochemicals</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            > Fertilizer consumption (kilograms per hectare of arable land)
+Fertilizer consumption measures the quantity of plant nutrients used per unit of arable land. Fertilizer products cover nitrogenous, potash, and phosphate fertilizers (including ground rock phosphate).
+[http://data.worldbank.org/indicator/AG.CON.FERT.ZS]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Use of agrochemicals</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Use of Agrochemicals is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Use of Agrochemicals  measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Use of Agrochemicals is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#viabilityOfBusiness -->
+
+    <SustainabilityIndicator rdf:about="#viabilityOfBusiness">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EconomicDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Viability of Business</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Viability of the business (net present value, minimisation of costs, adequate funding)</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Viability of Business is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Viability of Business is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Viability of Business measures some Impact that is related to Economic Dimension.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#wasteManagement -->
+
+    <owl:Thing rdf:about="#wasteManagement">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label
+            >Waste Management</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Combustible renewables and waste (% of total energy)
+Combustible renewables and waste comprise solid biomass, liquid biomass, biogas, industrial waste, and municipal waste, measured as a percentage of total energy use. 
+[http://data.worldbank.org/indicator/EG.USE.CRNW.ZS]</rdfs:seeAlso>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Waste management (minimization, sorting, disposal, recycling)</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Waste Management is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Waste Management is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Waste Management  measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#waterQuality -->
+
+    <owl:Thing rdf:about="#waterQuality">
+        <rdf:type rdf:resource="#SustainabilityIndicator"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Water Quality</rdfs:label>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Water pollution, chemical industry (% of total BOD emissions)
+Industry shares of emissions of organic water pollutants refer to emissions from manufacturing activities as defined by two-digit divisions of the International Standard Industrial Classification (ISIC), revision 2: chemicals (35). Emissions of organic water pollutants are measured by biochemical oxygen demand, which refers to the amount of oxygen that bacteria in water will consume in breaking down waste. This is a standard water-treatment test for the presence of organic pollutants. 
+[http://data.worldbank.org/indicator/EE.BOD.CHEM.ZS]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Water quality (water pollution, eutrophication, pesticide residues)</osmethodology:natural_language_description>
+        <osmethodology:related_rabbit_sentence
+            >Water Quality is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Water Quality  measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Water Quality is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#waterUse -->
+
+    <SustainabilityIndicator rdf:about="#waterUse">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#measure"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Impact"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="#beRelateTo"/>
+                                <owl:someValuesFrom rdf:resource="#EnvironmentalDimension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Water Use</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;string"
+            >Environment
+Natural and man-made environmental resources &#8211; fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems &#8211; provide sustenance and a foundation for social and economic development.
+[http://data.worldbank.org/topic/environment]</rdfs:seeAlso>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Use of ground and surface water</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >V. Buytaerta, B. Muysb, N. Devriendta, L. Pelkmansa, J.G. Kretzschmarc, R. Samsonc. Towards integrated sustainability assessment for energetic use of biomass: A state of the art evaluation of assessment tools. Renewable and Sustainable Energy Reviews, Volume 15, Issue 8, October 2011, Pages 3918&#8211;3933.</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Water Use is a Sustainability Indicator.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Water Use measures some Impact that is related to Environmental Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Water Use is a Thing.</osmethodology:related_rabbit_sentence>
+    </SustainabilityIndicator>
+    
+
+
+    <!-- http://www.leeds.ac.uk/ontologies/Sustainability7#wealthCreation -->
+
+    <Impact rdf:about="#wealthCreation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#affect"/>
+                <owl:someValuesFrom rdf:resource="#SocialDimension"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Wealth Creation</rdfs:label>
+        <osmethodology:natural_language_description rdf:datatype="&xsd;string"
+            >Although wealth creation is often used collectively or interchangeably with job creation, the two are distinct goals and are not necessarily
+correlated. Wealth creation results from the sale of products and services that benefit consumers, whereas job creation makes available the human resources needed to produce such products and services
+(Malizia &amp; Feser, 1999).</osmethodology:natural_language_description>
+        <osmethodology:knowledge_source rdf:datatype="&xsd;string"
+            >Sanya Carley, Adrienne Brown and Sara Lawrence. Economic Development and Energy: From Fad to a Sustainable Discipline?Economic Development Quarterly 26(2) 111&#8211;123</osmethodology:knowledge_source>
+        <osmethodology:related_rabbit_sentence
+            >Wealth Creation is a Thing.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Wealth Creation affects Social Dimension.</osmethodology:related_rabbit_sentence>
+        <osmethodology:related_rabbit_sentence
+            >Wealth Creation is an Impact.</osmethodology:related_rabbit_sentence>
+    </Impact>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.972) http://owlapi.sourceforge.net -->
+

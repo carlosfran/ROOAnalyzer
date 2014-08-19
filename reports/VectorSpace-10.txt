@@ -1,0 +1,3 @@
+VectorSpaceMeasure/CosineVM - Similarity(o1, o0): 0.9889952910402983
+VectorSpaceMeasure/KendallTau - Similarity(o1, o0): 0.9079552177416216
+VectorSpaceMeasure/JaccardVM - Similarity(o1, o0): 0.97789566755084

@@ -1,0 +1,121 @@
+*Vertices 106
+1 "o0:ImpactAssessment" ic Yellow bc Brown
+2 "o0:RenewableResource" ic Yellow bc Brown
+3 "o0:EconomicDimension" ic Yellow bc Brown
+4 "o0:NaturalResource" ic Yellow bc Brown
+5 "o0:NonrenewableResource" ic Yellow bc Brown
+6 "o0:SocialDimension" ic Yellow bc Brown
+7 "o0:SustainabilityIndicator" ic Yellow bc Brown
+8 "o0:SustainableProject" ic Yellow bc Brown
+9 "o0:Impact" ic Yellow bc Brown
+10 "o0:SustainableDevelopment" ic Yellow bc Brown
+11 "o0:EnvironmentalDimension" ic Yellow bc Brown
+12 "o0:beUseBy" ic Yellow bc Brown
+13 "o0:measure" ic Yellow bc Brown
+14 "o0:beApplyBy" ic Yellow bc Brown
+15 "o0:beProduceBy" ic Yellow bc Brown
+16 "o0:isPositive" ic Yellow bc Brown
+17 "o0:affect" ic Yellow bc Brown
+18 "o0:isNegative" ic Yellow bc Brown
+19 "o0:beMeasureBy" ic Yellow bc Brown
+20 "o0:beAssessBy" ic Yellow bc Brown
+21 "o0:have" ic Yellow bc Brown
+22 "o0:produce" ic Yellow bc Brown
+23 "o0:use" ic Yellow bc Brown
+24 "o0:apply" ic Yellow bc Brown
+25 "o0:assess" ic Yellow bc Brown
+26 "o0:landscapeView" ic Yellow bc Brown
+27 "o0:localEconomy" ic Yellow bc Brown
+28 "o0:riskMinimisation" ic Yellow bc Brown
+29 "o0:spaSystemPerturbationAnalysis" ic Yellow bc Brown
+30 "o0:wealthCreation" ic Yellow bc Brown
+31 "o0:ionizingRadiation" ic Yellow bc Brown
+32 "o0:ozoneDepletion" ic Yellow bc Brown
+33 "o0:socialAcceptance" ic Yellow bc Brown
+34 "o0:foodEnergySupply" ic Yellow bc Brown
+35 "o0:eutrophication" ic Yellow bc Brown
+36 "o0:pofPhotochemicalOzoneFormation" ic Yellow bc Brown
+37 "o0:bioticResourceUse" ic Yellow bc Brown
+38 "o0:acidification" ic Yellow bc Brown
+39 "o0:eaExergyAnalysis" ic Yellow bc Brown
+40 "o0:wasteManagement" ic Yellow bc Brown
+41 "o0:lcaLifeCycleAssessment" ic Yellow bc Brown
+42 "o0:climateChange" ic Yellow bc Brown
+43 "o0:abioticResourceUse" ic Yellow bc Brown
+44 "o0:preservationOfBiodiversity" ic Yellow bc Brown
+45 "o0:humanRights" ic Yellow bc Brown
+46 "o0:noise" ic Yellow bc Brown
+47 "o0:globalWarming" ic Yellow bc Brown
+48 "o0:energyDiversification" ic Yellow bc Brown
+49 "o0:increaseEnergySelf-sufficiency" ic Yellow bc Brown
+50 "o0:soilQuality" ic Yellow bc Brown
+51 "o0:jobRetention" ic Yellow bc Brown
+52 "o0:cusCriterionIndicator" ic Yellow bc Brown
+53 "o0:cbaCostBenefitAnalysis" ic Yellow bc Brown
+54 "o0:photochemicalOxidantFormation" ic Yellow bc Brown
+55 "o0:airPollution" ic Yellow bc Brown
+56 "o0:desertification" ic Yellow bc Brown
+57 "o0:humanToxicity" ic Yellow bc Brown
+58 "o0:eiumEnvironmentalImpactAssessment" ic Yellow bc Brown
+59 "o0:perous" ic Yellow bc Brown
+60 "o0:noblockingOtherDevelopment" ic Yellow bc Brown
+61 "o0:jobCreation" ic Yellow bc Brown
+62 "o0:aquaticTerrestrialEcotoxicity" ic Yellow bc Brown
+63 "o0:waterQuality" ic Yellow bc Brown
+64 "o0:humanSafety" ic Yellow bc Brown
+65 "o0:labourCondition" ic Yellow bc Brown
+66 "o0:waterUse" ic Yellow bc Brown
+67 "o0:erous" ic Yellow bc Brown
+68 "o0:fossilResource" ic Yellow bc Brown
+69 "o0:energyUse" ic Yellow bc Brown
+70 "o0:capacityBuilding" ic Yellow bc Brown
+71 "o0:reliabilityOfResource" ic Yellow bc Brown
+72 "o0:longTermPerspective" ic Yellow bc Brown
+73 "o0:viabilityOfBusiness" ic Yellow bc Brown
+74 "o0:epbt" ic Yellow bc Brown
+75 "o0:energyBalance" ic Yellow bc Brown
+76 "o0:deforestation" ic Yellow bc Brown
+77 "o0:landUse" ic Yellow bc Brown
+78 "o0:pepbt" ic Yellow bc Brown
+79 "o0:reliabilityOfTechnology" ic Yellow bc Brown
+80 "o0:particulateMatter" ic Yellow bc Brown
+81 "o0:economicDiversification" ic Yellow bc Brown
+82 "o0:accesstoresource" ic Yellow bc Brown
+83 "o0:airQuality" ic Yellow bc Brown
+84 "o0:reliabilityOfEnergy" ic Yellow bc Brown
+85 "o0:fairTrade" ic Yellow bc Brown
+86 "o0:useOfAgrochemical" ic Yellow bc Brown
+87 "o0:reducedGreenhouseGasEmission" ic Yellow bc Brown
+88 "o0:democraticParticipation" ic Yellow bc Brown
+89 "o0:increaseEnergyEfficiency" ic Yellow bc Brown
+90 "o0:propertyRights" ic Yellow bc Brown
+91 "o1:Intercropping" ic Orange bc Brown
+92 "o1:Culture" ic Orange bc Brown
+93 "o1:cultureCombinarion" ic Orange bc Brown
+94 "o1:diameter" ic Orange bc Brown
+95 "o1:numberOfLeave" ic Orange bc Brown
+96 "o1:shootDryMass" ic Orange bc Brown
+97 "o1:density" ic Orange bc Brown
+98 "o1:LongRoot" ic Orange bc Brown
+99 "o1:greenMassYield" ic Orange bc Brown
+100 "o1:yieldEfficiency" ic Orange bc Brown
+101 "o1:landEquivalentRatio" ic Orange bc Brown
+102 "o1:height" ic Orange bc Brown
+103 "o1:productivity" ic Orange bc Brown
+104 "o1:Yield" ic Orange bc Brown
+105 "o1:plantSeason" ic Orange bc Brown
+106 "o1:root" ic Orange bc Brown
+*Arcs
+105 20 0.3636
+91 10 0.2727
+100 15 0.2667
+94 13 0.2500
+104 24 0.2000
+98 18 0.2000
+96 22 0.1667
+103 22 0.5000
+106 22 0.2857
+97 12 0.4286
+93 12 0.1667
+92 4 0.3333
+99 13 0.2857

@@ -1,0 +1,16 @@
+EntityLexicalMeasure/StringMeasureSS/Hausdorff - Similarity(o1, o0): -14.666666666666666
+EntityLexicalMeasure/CommonWords/Hausdorff - Similarity(o1, o0): 0.08333333333333333
+EntityLexicalMeasure/StringMeasureSS/MaxCoupling - Similarity(o1, o0): 0.8504672897196262
+EntityLexicalMeasure/CommonWords/MaxCoupling - Similarity(o1, o0): 0.8504672897196262
+EntityLexicalMeasure/StringMeasureSS/SingleLinkage - Similarity(o1, o0): -167.0
+EntityLexicalMeasure/CommonWords/SingleLinkage - Similarity(o1, o0): 0.0
+EntityLexicalMeasure/StringMeasureSS/AverageLinkage - Similarity(o1, o0): -47.00245634798368
+EntityLexicalMeasure/CommonWords/AverageLinkage - Similarity(o1, o0): 0.11288073881112984
+EntityLexicalMeasure/CommonWords/FullLinkage - Similarity(o1, o0): 1.0
+EntityLexicalMeasure/StringMeasureSS/FullLinkage - Similarity(o1, o0): 1.0
+EntityLexicalMeasure/CommonWords/MaximumSet - Similarity(o1, o0): 1.0
+EntityLexicalMeasure/StringMeasureSS/MaximumSet - Similarity(o1, o0): 1.0
+EntityLexicalMeasure/CommonWords/MaxSet - Similarity(o1, o0): 0.9464085297418632
+EntityLexicalMeasure/StringMeasureSS/MaxSet - Similarity(o1, o0): 0.9191919191919192
+EntityLexicalMeasure/CommonWords/WeightedMaxSum - Similarity(o1, o0): 1.0
+EntityLexicalMeasure/StringMeasureSS/WeightedMaxSum - Similarity(o1, o0): 1.0

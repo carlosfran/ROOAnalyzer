@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>?*</type>
+  <time>637</time>
+  <method>fr.inrialpes.exmo.align.impl.method.EditDistNameAlignment</method>
+  <onto1>
+    <Ontology rdf:about="http://www.leeds.ac.uk/ontologies/Sustainability1">
+      <location>file:///dados/workspace/ROOAnalyzer/ontologies/Sustainability1.rdf</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://www.leeds.ac.uk/ontologies/Sustainability0">
+      <location>file:///dados/workspace/ROOAnalyzer/ontologies/Sustainability0.rdf</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#cusCriterionIndicator'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#cusCriterionIndicator'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#energyUse'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#energyUse'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#democraticParticipation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#democraticParticipation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#reliabilityOfResource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#reliabilityOfResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#perous'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#perous'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#cultureCombinarion'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beUseBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.16666666666666663</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#root'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#produce'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.2857142857142857</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#capacityBuilding'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#capacityBuilding'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#waterUse'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#waterUse'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#socialAcceptance'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#socialAcceptance'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#shootDryMass'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#produce'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.16666666666666663</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#humanSafety'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#humanSafety'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#productivity'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#produce'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.5</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#energyBalance'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#energyBalance'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#deforestation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#deforestation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#propertyRights'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#propertyRights'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#apply'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#apply'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beAssessBy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beAssessBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#have'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#have'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#pepbt'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#pepbt'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#fairTrade'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#fairTrade'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#assess'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#assess'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#ImpactAssessment'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#ImpactAssessment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#isPositive'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#isPositive'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#NaturalResource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#NaturalResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#acidification'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#acidification'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#eutrophication'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#eutrophication'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#SocialDimension'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#SocialDimension'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#NonrenewableResource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#NonrenewableResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#desertification'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#desertification'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#reducedGreenhouseGasEmission'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#reducedGreenhouseGasEmission'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#epbt'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#epbt'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#economicDiversification'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#economicDiversification'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#use'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#use'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#viabilityOfBusiness'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#viabilityOfBusiness'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#noise'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#noise'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#reliabilityOfTechnology'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#reliabilityOfTechnology'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#height'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beRelateTo'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.19999999999999996</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#pofPhotochemicalOzoneFormation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#pofPhotochemicalOzoneFormation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#energyDiversification'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#energyDiversification'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#humanRights'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#humanRights'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#SustainableDevelopment'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#SustainableDevelopment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#produce'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#produce'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#numberOfLeave'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beRelateTo'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.3076923076923077</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#riskMinimisation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#riskMinimisation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#increaseEnergySelf-sufficiency'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#increaseEnergySelf-sufficiency'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#abioticResourceUse'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#abioticResourceUse'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#measure'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#measure'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#SustainabilityIndicator'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#SustainabilityIndicator'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#landUse'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#landUse'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#eiumEnvironmentalImpactAssessment'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#eiumEnvironmentalImpactAssessment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#Impact'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#Impact'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#foodEnergySupply'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#foodEnergySupply'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#erous'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#erous'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beMeasureBy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beMeasureBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#LongRoot'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#isNegative'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.19999999999999996</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#eaExergyAnalysis'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#eaExergyAnalysis'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#airPollution'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#airPollution'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beApplyBy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beApplyBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#density'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beUseBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.4285714285714286</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#diameter'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#measure'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.25</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#noblockingOtherDevelopment'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#noblockingOtherDevelopment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#lcaLifeCycleAssessment'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#lcaLifeCycleAssessment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#bioticResourceUse'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#bioticResourceUse'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#increaseEnergyEfficiency'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#increaseEnergyEfficiency'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#isNegative'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#isNegative'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#reliabilityOfEnergy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#reliabilityOfEnergy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#jobCreation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#jobCreation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#EnvironmentalDimension'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#EnvironmentalDimension'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#useOfAgrochemical'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#useOfAgrochemical'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#accesstoresource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#accesstoresource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beProduceBy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beProduceBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#Culture'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#NaturalResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.33333333333333337</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#jobRetention'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#jobRetention'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#humanToxicity'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#humanToxicity'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#labourCondition'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#labourCondition'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#fossilResource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#fossilResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#yieldEfficiency'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beProduceBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.2666666666666667</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#ozoneDepletion'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#ozoneDepletion'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#plantSeason'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beAssessBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.36363636363636365</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#climateChange'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#climateChange'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beRelateTo'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beRelateTo'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#greenMassYield'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#measure'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.2857142857142857</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#aquaticTerrestrialEcotoxicity'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#aquaticTerrestrialEcotoxicity'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#localEconomy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#localEconomy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#beUseBy'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beUseBy'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#spaSystemPerturbationAnalysis'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#spaSystemPerturbationAnalysis'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#waterQuality'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#waterQuality'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#particulateMatter'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#particulateMatter'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#wealthCreation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#wealthCreation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#EconomicDimension'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#EconomicDimension'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#affect'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#affect'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#ionizingRadiation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#ionizingRadiation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#preservationOfBiodiversity'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#preservationOfBiodiversity'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#Yield'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#apply'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.19999999999999996</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#soilQuality'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#soilQuality'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#RenewableResource'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#RenewableResource'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#wasteManagement'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#wasteManagement'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#Intercropping'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#SustainableDevelopment'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.2727272727272727</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#cbaCostBenefitAnalysis'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#cbaCostBenefitAnalysis'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#landEquivalentRatio'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#beRelateTo'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.26315789473684215</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#airQuality'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#airQuality'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#SustainableProject'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#SustainableProject'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#globalWarming'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#globalWarming'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#longTermPerspective'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#longTermPerspective'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#landscapeView'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#landscapeView'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability1#photochemicalOxidantFormation'/>
+      <entity2 rdf:resource='http://www.leeds.ac.uk/ontologies/Sustainability0#photochemicalOxidantFormation'/>
+      <relation>=</relation>
+      <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="ROOAnalizer">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="ROOAnalizer.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="libs/align.jar"/>
+        <pathelement location="libs/api.jar"/>
+        <pathelement location="libs/arq.jar"/>
+        <pathelement location="libs/asm-3.1.jar"/>
+        <pathelement location="libs/commons-codec-1.4.jar"/>
+        <pathelement location="libs/commons-codec-1.5.jar"/>
+        <pathelement location="libs/commons-codec-1.7.jar"/>
+        <pathelement location="libs/commons-fileupload-1.2.2.jar"/>
+        <pathelement location="libs/commons-httpclient-3.1.jar"/>
+        <pathelement location="libs/commons-io-2.4.jar"/>
+        <pathelement location="libs/commons-logging-1.1.1.jar"/>
+        <pathelement location="libs/commons-logging-1.1.jar"/>
+        <pathelement location="libs/commons-logging-adapters-1.1.1.jar"/>
+        <pathelement location="libs/commons-logging-api-1.1.1.jar"/>
+        <pathelement location="libs/commons-logging.jar"/>
+        <pathelement location="libs/getopt.jar"/>
+        <pathelement location="libs/httpclient-4.1.2.jar"/>
+        <pathelement location="libs/httpcore-4.1.3.jar"/>
+        <pathelement location="libs/icu4j.jar"/>
+        <pathelement location="libs/impl.jar"/>
+        <pathelement location="libs/io.jar"/>
+        <pathelement location="libs/iri.jar"/>
+        <pathelement location="libs/jackson-core-asl-1.9.2.jar"/>
+        <pathelement location="libs/jackson-jaxrs-1.9.2.jar"/>
+        <pathelement location="libs/jackson-mapper-asl-1.9.2.jar"/>
+        <pathelement location="libs/jackson-xc-1.9.2.jar"/>
+        <pathelement location="libs/jena-arq-2.9.1.jar"/>
+        <pathelement location="libs/jena-core-2.7.1.jar"/>
+        <pathelement location="libs/jena-iri-0.9.1.jar"/>
+        <pathelement location="libs/jena-tdb-0.9.1.jar"/>
+        <pathelement location="libs/jena.jar"/>
+        <pathelement location="libs/jersey-apache-client-1.12.jar"/>
+        <pathelement location="libs/jersey-atom-abdera-1.12.jar"/>
+        <pathelement location="libs/jersey-client-1.12.jar"/>
+        <pathelement location="libs/jersey-core-1.12.jar"/>
+        <pathelement location="libs/jersey-guice-1.12.jar"/>
+        <pathelement location="libs/jersey-json-1.12.jar"/>
+        <pathelement location="libs/jersey-multipart-1.12.jar"/>
+        <pathelement location="libs/jersey-server-1.12.jar"/>
+        <pathelement location="libs/jersey-servlet-1.12.jar"/>
+        <pathelement location="libs/jersey-simple-server-1.12.jar"/>
+        <pathelement location="libs/jersey-spring-1.12.jar"/>
+        <pathelement location="libs/jettison-1.1.jar"/>
+        <pathelement location="libs/jsr311-api-1.1.1.jar"/>
+        <pathelement location="libs/jwnl.jar"/>
+        <pathelement location="libs/log4j-1.2.16.jar"/>
+        <pathelement location="libs/log4j.jar"/>
+        <pathelement location="libs/lucene-analyzers-3.0.2.jar"/>
+        <pathelement location="libs/lucene-core-3.0.2.jar"/>
+        <pathelement location="libs/lucene-snowball-3.0.2.jar"/>
+        <pathelement location="libs/mtj.jar"/>
+        <pathelement location="libs/oauth-client-1.12.jar"/>
+        <pathelement location="libs/oauth-server-1.12.jar"/>
+        <pathelement location="libs/oauth-signature-1.12.jar"/>
+        <pathelement location="libs/ontographs.jar"/>
+        <pathelement location="libs/ontosim.jar"/>
+        <pathelement location="libs/ontowrap.jar"/>
+        <pathelement location="libs/owlapi-bin.jar"/>
+        <pathelement location="libs/procalign.jar"/>
+        <pathelement location="libs/rdfapi.jar"/>
+        <pathelement location="libs/rdfparser.jar"/>
+        <pathelement location="libs/sboa.jar"/>
+        <pathelement location="libs/secondstring-20060615.jar"/>
+        <pathelement location="libs/slf4j-api-1.6.4.jar"/>
+        <pathelement location="libs/slf4j-api.jar"/>
+        <pathelement location="libs/slf4j-log4j.jar"/>
+        <pathelement location="libs/slf4j-log4j12-1.6.4.jar"/>
+        <pathelement location="libs/testng.jar"/>
+        <pathelement location="libs/xercesImpl-2.10.0.jar"/>
+        <pathelement location="libs/xercesImpl.jar"/>
+        <pathelement location="libs/xml-apis-1.4.01.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="ROOAnalizer.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Analizer">
+        <java classname="br.uern.aridus.roo.Analyzer" failonerror="true" fork="yes">
+            <jvmarg line="-Xmx1024m"/>
+            <arg line="&gt;&gt; d:\\roo-report.txt"/>
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+    <target name="ListConceptsDiff (1)">
+        <java classname="br.uern.aridus.roo.ListConceptsDiff" failonerror="true" fork="yes">
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+    <target name="AServClient (1)">
+        <java classname="br.uern.aridus.roo.AServClient" failonerror="true" fork="yes">
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+    <target name="TestEntities">
+        <java classname="br.uern.aridus.roo.TestEntities" failonerror="true" fork="yes">
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+    <target name="PajekGraphGenerator">
+        <java classname="br.uern.aridus.roo.PajekGraphGenerator" failonerror="true" fork="yes">
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+    <target name="AservDeskClient">
+        <java classname="br.uern.aridus.roo.AservDeskClient" failonerror="true" fork="yes">
+            <classpath refid="ROOAnalizer.classpath"/>
+        </java>
+    </target>
+</project>
